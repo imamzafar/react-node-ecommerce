@@ -25,6 +25,7 @@ const userSchema = new mongoose.Schema(
             trim: true
         },
         salt: String,
+        // 1 means admin
         role: {
             type: Number,
             default: 0
